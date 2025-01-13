@@ -1,4 +1,4 @@
-import { generateTextAndImage } from "./utils.js"
+import { generateTextAndImage } from "./utils/utils.js"
 
 // 1. Change the value of the variable to your name
 let name = "Ilia"
@@ -13,8 +13,5 @@ let favoritePlace = "underwater"
 // 4. Configure the AI by setting a temperature from 0 to 1
 // The higher temperature, the more random & experimental output
 let temperature = 1
-
-// Optional: delete "avatar.jpg" and add a photo of yourself
-// (remember to use "avatar.jpg" as the name of your photo)
 
 generateTextAndImage(name, favoriteActivity, favoritePlace, temperature)
